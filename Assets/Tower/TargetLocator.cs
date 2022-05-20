@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class TargetLocator : MonoBehaviour {
   [SerializeField] Transform weapon;
-  [SerializeField] Transform target;
+  [SerializeField] ParticleSystem ammoParticles;
+  [SerializeField] float range = 15f;
+
+  Transform target;
 
   void Update() {
     FindClosestTarget();
@@ -29,6 +32,20 @@ public class TargetLocator : MonoBehaviour {
   }
 
   void AimWeapon() {
+    float targetDistance = Vector3.Distance(transform.position, target.position);
+
     weapon.LookAt(target);
+
+    if(targetDistance < range) {
+      Attack(true);
+    } else {
+      Attack(false);
+    }
+  }
+
+  void Attack(bool isActive) {
+    var emissionModule = ammoParticles.emission;
+
+    emissionModule.enabled = isActive;
   }
 }
