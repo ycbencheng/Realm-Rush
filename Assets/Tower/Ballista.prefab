@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3049131714819384361}
   - component: {fileID: 7117633771669094875}
+  - component: {fileID: 4143357069747798822}
   m_Layer: 0
   m_Name: Ballista
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +49,18 @@ MonoBehaviour:
   weapon: {fileID: 3144582324300694500}
   ammoParticles: {fileID: 8550630481194704270}
   range: 15
+--- !u!114 &4143357069747798822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219458064393657486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359502a2657b04b8e8c3e93ecaac0dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4720468868321168513
 GameObject:
   m_ObjectHideFlags: 0

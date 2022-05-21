@@ -57,11 +57,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 700300528069025971, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: m_Name
-      value: Tile_StraightPath
+      value: (0, 0)
       objectReference: {fileID: 0}
     - target: {fileID: 700300528540134854, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 700300528540134855, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2496607593310258988, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: isPlaceable

@@ -17,9 +17,9 @@ public class CoordinateLabeler:MonoBehaviour {
   // Start is called before the first frame update
   void Awake() {
     label = GetComponent<TextMeshPro>();
-    waypoint = GetComponentInParent<Waypoint>();
     label.enabled = false;
 
+    waypoint = GetComponentInParent<Waypoint>();
     DisplayCoordinates();
   }
 
