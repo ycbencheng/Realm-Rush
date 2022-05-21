@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1494810141690810878, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 327281696239695970, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 700300528069025971, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: m_Name
-      value: (0, 0)
+      value: Tile_StraightPath
       objectReference: {fileID: 0}
     - target: {fileID: 700300528540134854, guid: 6bb64931d274f4ab281be4512dff13f3, type: 3}
       propertyPath: m_Enabled
